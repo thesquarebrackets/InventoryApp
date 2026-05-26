@@ -31,7 +31,7 @@ export default function Sidebar({ active, onNav, alertCount }) {
           fontSize: 17, fontFamily: "Syne, sans-serif", fontWeight: 800, color: "#fff",
         }}>S</div>
         {!collapsed && <div>
-          <div style={{ fontFamily: "Syne, sans-serif", fontWeight: 800, fontSize: 15, color: "#f1f5f9", letterSpacing: "-0.02em" }}>StockAI</div>
+          <div style={{ fontFamily: "Syne, sans-serif", fontWeight: 800, fontSize: 15, color: "#f1f5f9", letterSpacing: "-0.02em" }}>SB</div>
           <div style={{ fontSize: 10, color: "#374151", letterSpacing: "0.1em", textTransform: "uppercase" }}>Coimbatore</div>
         </div>}
         {!collapsed && <button onClick={() => setCollapsed(true)} style={btnStyle}>‹</button>}
